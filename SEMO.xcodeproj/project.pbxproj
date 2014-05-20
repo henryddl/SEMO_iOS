@@ -21,6 +21,7 @@
 		D1005319192BCE8400B26517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10052FB192BCE8400B26517 /* UIKit.framework */; };
 		D1005321192BCE8400B26517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D100531F192BCE8400B26517 /* InfoPlist.strings */; };
 		D1005323192BCE8400B26517 /* SEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005322192BCE8400B26517 /* SEMOTests.m */; };
+		D100532D192BCE8E00B26517 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D100531E192BCE8400B26517 /* SEMOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEMOTests-Info.plist"; sourceTree = "<group>"; };
 		D1005320192BCE8400B26517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1005322192BCE8400B26517 /* SEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMOTests.m; sourceTree = "<group>"; };
+		D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D100532D192BCE8E00B26517 /* libsqlite3.0.dylib in Frameworks */,
 				D10052FA192BCE8400B26517 /* CoreGraphics.framework in Frameworks */,
 				D10052FC192BCE8400B26517 /* UIKit.framework in Frameworks */,
 				D10052F8192BCE8400B26517 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		D10052F6192BCE8400B26517 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */,
 				D10052F7192BCE8400B26517 /* Foundation.framework */,
 				D10052F9192BCE8400B26517 /* CoreGraphics.framework */,
 				D10052FB192BCE8400B26517 /* UIKit.framework */,
