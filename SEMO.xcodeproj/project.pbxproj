@@ -24,6 +24,19 @@
 		D1005330192BD52B00B26517 /* AlumnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D100532F192BD52B00B26517 /* AlumnoViewController.m */; };
 		D1005333192BD54100B26517 /* UsuarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005332192BD54100B26517 /* UsuarioViewController.m */; };
 		D1005336192BD55100B26517 /* DocenteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005335192BD55100B26517 /* DocenteViewController.m */; };
+		D1DAC230192BEC0E003CA46F /* TipoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC22F192BEC0E003CA46F /* TipoViewController.m */; };
+		D1DAC233192BEC3B003CA46F /* PreguntaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC232192BEC3B003CA46F /* PreguntaViewController.m */; };
+		D1DAC236192BEC5E003CA46F /* ItemRespuestaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC235192BEC5E003CA46F /* ItemRespuestaViewController.m */; };
+		D1DAC239192BEC75003CA46F /* EvaluacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC238192BEC75003CA46F /* EvaluacionViewController.m */; };
+		D1DAC23C192BECA5003CA46F /* InscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC23B192BECA5003CA46F /* InscribeViewController.m */; };
+		D1DAC23F192BECC1003CA46F /* CuestionarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC23E192BECC1003CA46F /* CuestionarioViewController.m */; };
+		D1DAC242192BECD1003CA46F /* AsPreguntasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC241192BECD1003CA46F /* AsPreguntasViewController.m */; };
+		D1DAC245192BECE2003CA46F /* RespuestaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC244192BECE2003CA46F /* RespuestaViewController.m */; };
+		D1DAC24B192BEE66003CA46F /* ConfiguracionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC24A192BEE66003CA46F /* ConfiguracionViewController.m */; };
+		D1DAC24E192BF50A003CA46F /* MateriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC24D192BF50A003CA46F /* MateriaViewController.m */; };
+		D1DAC251192BF545003CA46F /* CursoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC250192BF545003CA46F /* CursoViewController.m */; };
+		D1DAC254192BF564003CA46F /* CategoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC253192BF564003CA46F /* CategoriaViewController.m */; };
+		D1DAC257192BF56E003CA46F /* SubCategoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC256192BF56E003CA46F /* SubCategoriaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +75,32 @@
 		D1005332192BD54100B26517 /* UsuarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioViewController.m; sourceTree = "<group>"; };
 		D1005334192BD55100B26517 /* DocenteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocenteViewController.h; sourceTree = "<group>"; };
 		D1005335192BD55100B26517 /* DocenteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocenteViewController.m; sourceTree = "<group>"; };
+		D1DAC22E192BEC0E003CA46F /* TipoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoViewController.h; sourceTree = "<group>"; };
+		D1DAC22F192BEC0E003CA46F /* TipoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoViewController.m; sourceTree = "<group>"; };
+		D1DAC231192BEC3B003CA46F /* PreguntaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreguntaViewController.h; path = ../PreguntaViewController.h; sourceTree = "<group>"; };
+		D1DAC232192BEC3B003CA46F /* PreguntaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreguntaViewController.m; path = ../PreguntaViewController.m; sourceTree = "<group>"; };
+		D1DAC234192BEC5E003CA46F /* ItemRespuestaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemRespuestaViewController.h; sourceTree = "<group>"; };
+		D1DAC235192BEC5E003CA46F /* ItemRespuestaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemRespuestaViewController.m; sourceTree = "<group>"; };
+		D1DAC237192BEC75003CA46F /* EvaluacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluacionViewController.h; sourceTree = "<group>"; };
+		D1DAC238192BEC75003CA46F /* EvaluacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluacionViewController.m; sourceTree = "<group>"; };
+		D1DAC23A192BECA5003CA46F /* InscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscribeViewController.h; sourceTree = "<group>"; };
+		D1DAC23B192BECA5003CA46F /* InscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscribeViewController.m; sourceTree = "<group>"; };
+		D1DAC23D192BECC1003CA46F /* CuestionarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuestionarioViewController.h; sourceTree = "<group>"; };
+		D1DAC23E192BECC1003CA46F /* CuestionarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuestionarioViewController.m; sourceTree = "<group>"; };
+		D1DAC240192BECD1003CA46F /* AsPreguntasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsPreguntasViewController.h; sourceTree = "<group>"; };
+		D1DAC241192BECD1003CA46F /* AsPreguntasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsPreguntasViewController.m; sourceTree = "<group>"; };
+		D1DAC243192BECE1003CA46F /* RespuestaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespuestaViewController.h; sourceTree = "<group>"; };
+		D1DAC244192BECE2003CA46F /* RespuestaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespuestaViewController.m; sourceTree = "<group>"; };
+		D1DAC249192BEE66003CA46F /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
+		D1DAC24A192BEE66003CA46F /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
+		D1DAC24C192BF50A003CA46F /* MateriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MateriaViewController.h; sourceTree = "<group>"; };
+		D1DAC24D192BF50A003CA46F /* MateriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MateriaViewController.m; sourceTree = "<group>"; };
+		D1DAC24F192BF545003CA46F /* CursoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursoViewController.h; sourceTree = "<group>"; };
+		D1DAC250192BF545003CA46F /* CursoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CursoViewController.m; sourceTree = "<group>"; };
+		D1DAC252192BF564003CA46F /* CategoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaViewController.h; sourceTree = "<group>"; };
+		D1DAC253192BF564003CA46F /* CategoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaViewController.m; sourceTree = "<group>"; };
+		D1DAC255192BF56E003CA46F /* SubCategoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCategoriaViewController.h; sourceTree = "<group>"; };
+		D1DAC256192BF56E003CA46F /* SubCategoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCategoriaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,19 +160,45 @@
 		D10052FD192BCE8400B26517 /* SEMO */ = {
 			isa = PBXGroup;
 			children = (
-				D1005306192BCE8400B26517 /* AppDelegate.h */,
-				D1005307192BCE8400B26517 /* AppDelegate.m */,
-				D1005309192BCE8400B26517 /* Main.storyboard */,
-				D100530C192BCE8400B26517 /* ViewController.h */,
-				D100530D192BCE8400B26517 /* ViewController.m */,
-				D100530F192BCE8400B26517 /* Images.xcassets */,
-				D10052FE192BCE8400B26517 /* Supporting Files */,
 				D100532E192BD52B00B26517 /* AlumnoViewController.h */,
 				D100532F192BD52B00B26517 /* AlumnoViewController.m */,
-				D1005331192BD54100B26517 /* UsuarioViewController.h */,
-				D1005332192BD54100B26517 /* UsuarioViewController.m */,
+				D1005306192BCE8400B26517 /* AppDelegate.h */,
+				D1005307192BCE8400B26517 /* AppDelegate.m */,
+				D1DAC240192BECD1003CA46F /* AsPreguntasViewController.h */,
+				D1DAC241192BECD1003CA46F /* AsPreguntasViewController.m */,
+				D1DAC252192BF564003CA46F /* CategoriaViewController.h */,
+				D1DAC253192BF564003CA46F /* CategoriaViewController.m */,
+				D1DAC249192BEE66003CA46F /* ConfiguracionViewController.h */,
+				D1DAC24A192BEE66003CA46F /* ConfiguracionViewController.m */,
+				D1DAC23D192BECC1003CA46F /* CuestionarioViewController.h */,
+				D1DAC23E192BECC1003CA46F /* CuestionarioViewController.m */,
+				D1DAC24F192BF545003CA46F /* CursoViewController.h */,
+				D1DAC250192BF545003CA46F /* CursoViewController.m */,
 				D1005334192BD55100B26517 /* DocenteViewController.h */,
 				D1005335192BD55100B26517 /* DocenteViewController.m */,
+				D1DAC237192BEC75003CA46F /* EvaluacionViewController.h */,
+				D1DAC238192BEC75003CA46F /* EvaluacionViewController.m */,
+				D100530F192BCE8400B26517 /* Images.xcassets */,
+				D1DAC23A192BECA5003CA46F /* InscribeViewController.h */,
+				D1DAC23B192BECA5003CA46F /* InscribeViewController.m */,
+				D1DAC234192BEC5E003CA46F /* ItemRespuestaViewController.h */,
+				D1DAC235192BEC5E003CA46F /* ItemRespuestaViewController.m */,
+				D1005309192BCE8400B26517 /* Main.storyboard */,
+				D1DAC24C192BF50A003CA46F /* MateriaViewController.h */,
+				D1DAC24D192BF50A003CA46F /* MateriaViewController.m */,
+				D1DAC231192BEC3B003CA46F /* PreguntaViewController.h */,
+				D1DAC232192BEC3B003CA46F /* PreguntaViewController.m */,
+				D1DAC243192BECE1003CA46F /* RespuestaViewController.h */,
+				D1DAC244192BECE2003CA46F /* RespuestaViewController.m */,
+				D1DAC255192BF56E003CA46F /* SubCategoriaViewController.h */,
+				D1DAC256192BF56E003CA46F /* SubCategoriaViewController.m */,
+				D10052FE192BCE8400B26517 /* Supporting Files */,
+				D1DAC22E192BEC0E003CA46F /* TipoViewController.h */,
+				D1DAC22F192BEC0E003CA46F /* TipoViewController.m */,
+				D1005331192BD54100B26517 /* UsuarioViewController.h */,
+				D1005332192BD54100B26517 /* UsuarioViewController.m */,
+				D100530C192BCE8400B26517 /* ViewController.h */,
+				D100530D192BCE8400B26517 /* ViewController.m */,
 			);
 			path = SEMO;
 			sourceTree = "<group>";
@@ -264,12 +329,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DAC233192BEC3B003CA46F /* PreguntaViewController.m in Sources */,
 				D1005330192BD52B00B26517 /* AlumnoViewController.m in Sources */,
+				D1DAC23C192BECA5003CA46F /* InscribeViewController.m in Sources */,
 				D100530E192BCE8400B26517 /* ViewController.m in Sources */,
+				D1DAC24E192BF50A003CA46F /* MateriaViewController.m in Sources */,
 				D1005333192BD54100B26517 /* UsuarioViewController.m in Sources */,
+				D1DAC257192BF56E003CA46F /* SubCategoriaViewController.m in Sources */,
+				D1DAC254192BF564003CA46F /* CategoriaViewController.m in Sources */,
 				D1005308192BCE8400B26517 /* AppDelegate.m in Sources */,
+				D1DAC242192BECD1003CA46F /* AsPreguntasViewController.m in Sources */,
 				D1005304192BCE8400B26517 /* main.m in Sources */,
+				D1DAC23F192BECC1003CA46F /* CuestionarioViewController.m in Sources */,
+				D1DAC236192BEC5E003CA46F /* ItemRespuestaViewController.m in Sources */,
 				D1005336192BD55100B26517 /* DocenteViewController.m in Sources */,
+				D1DAC245192BECE2003CA46F /* RespuestaViewController.m in Sources */,
+				D1DAC230192BEC0E003CA46F /* TipoViewController.m in Sources */,
+				D1DAC239192BEC75003CA46F /* EvaluacionViewController.m in Sources */,
+				D1DAC251192BF545003CA46F /* CursoViewController.m in Sources */,
+				D1DAC24B192BEE66003CA46F /* ConfiguracionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
