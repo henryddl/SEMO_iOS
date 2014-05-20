@@ -73,7 +73,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c4z-p3-nVA" kind="modal" id="mfs-Mg-I4R"/>
+                                    <segue destination="c4z-p3-nVA" kind="modal" id="MhT-BS-ExC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xu3-qQ-fc7">
@@ -142,6 +142,9 @@
                                 <state key="normal" title="Inscribe">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ODp-6L-NHl" kind="modal" id="4sK-AO-iTj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXz-gr-oG9">
                                 <rect key="frame" x="20" y="145" width="35" height="30"/>
@@ -156,6 +159,9 @@
                                 <state key="normal" title="Categoria">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UsG-0l-NPA" kind="modal" id="Wb9-tb-Zsf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbX-yJ-HXP">
                                 <rect key="frame" x="192" y="221" width="95" height="30"/>
@@ -163,6 +169,9 @@
                                 <state key="normal" title="SubCategoria">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M4K-AZ-eol" kind="modal" id="bT4-Tq-eO0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xor-uy-rQD">
                                 <rect key="frame" x="192" y="107" width="52" height="30"/>
@@ -170,6 +179,9 @@
                                 <state key="normal" title="Materia">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Up3-9N-mrP" kind="modal" id="whq-ev-JgP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1673,6 +1685,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="c30-cH-SDf"/>
+        <segue reference="qhd-rL-d3U"/>
+        <segue reference="f59-PG-0go"/>
     </inferredMetricsTieBreakers>
 </document>
