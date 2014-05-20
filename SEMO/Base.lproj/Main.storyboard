@@ -7,11 +7,10 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="RQp-MN-xbI"/>
-                        <viewControllerLayoutGuide type="bottom" id="api-9X-OKW"/>
+                        <viewControllerLayoutGuide type="top" id="vqy-aJ-1iK"/>
+                        <viewControllerLayoutGuide type="bottom" id="6aX-0M-hLK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -149,8 +148,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1865" y="-1331"/>
         </scene>
         <!--Alumno View Controller-->
         <scene sceneID="bpu-qZ-s6U">
@@ -225,6 +224,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="AlumnosTableView" destination="wvt-rN-eDV" id="882-hh-5LN"/>
+                        <outlet property="apellidoAlumnoField" destination="q9R-fd-pNt" id="jQe-aj-p2r"/>
+                        <outlet property="carnetField" destination="JHY-Y1-GMT" id="Pyh-fB-P4p"/>
+                        <outlet property="nombreAlumnoField" destination="k0H-AQ-CE9" id="EIm-cO-LBs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bl1-xY-7Gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -21,7 +21,9 @@
 		D1005319192BCE8400B26517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10052FB192BCE8400B26517 /* UIKit.framework */; };
 		D1005321192BCE8400B26517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D100531F192BCE8400B26517 /* InfoPlist.strings */; };
 		D1005323192BCE8400B26517 /* SEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005322192BCE8400B26517 /* SEMOTests.m */; };
-		D100532D192BCE8E00B26517 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */; };
+		D1005330192BD52B00B26517 /* AlumnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D100532F192BD52B00B26517 /* AlumnoViewController.m */; };
+		D1005333192BD54100B26517 /* UsuarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005332192BD54100B26517 /* UsuarioViewController.m */; };
+		D1005336192BD55100B26517 /* DocenteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005335192BD55100B26517 /* DocenteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,12 @@
 		D100531E192BCE8400B26517 /* SEMOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEMOTests-Info.plist"; sourceTree = "<group>"; };
 		D1005320192BCE8400B26517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1005322192BCE8400B26517 /* SEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMOTests.m; sourceTree = "<group>"; };
-		D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D100532E192BD52B00B26517 /* AlumnoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlumnoViewController.h; sourceTree = "<group>"; };
+		D100532F192BD52B00B26517 /* AlumnoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlumnoViewController.m; sourceTree = "<group>"; };
+		D1005331192BD54100B26517 /* UsuarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioViewController.h; sourceTree = "<group>"; };
+		D1005332192BD54100B26517 /* UsuarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioViewController.m; sourceTree = "<group>"; };
+		D1005334192BD55100B26517 /* DocenteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocenteViewController.h; sourceTree = "<group>"; };
+		D1005335192BD55100B26517 /* DocenteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocenteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D100532D192BCE8E00B26517 /* libsqlite3.0.dylib in Frameworks */,
 				D10052FA192BCE8400B26517 /* CoreGraphics.framework in Frameworks */,
 				D10052FC192BCE8400B26517 /* UIKit.framework in Frameworks */,
 				D10052F8192BCE8400B26517 /* Foundation.framework in Frameworks */,
@@ -104,7 +110,6 @@
 		D10052F6192BCE8400B26517 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D100532C192BCE8E00B26517 /* libsqlite3.0.dylib */,
 				D10052F7192BCE8400B26517 /* Foundation.framework */,
 				D10052F9192BCE8400B26517 /* CoreGraphics.framework */,
 				D10052FB192BCE8400B26517 /* UIKit.framework */,

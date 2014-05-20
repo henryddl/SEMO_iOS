@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface AlumnoViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *carnetField;
+@property (weak, nonatomic) IBOutlet UITextField *nombreAlumnoField;
+@property (weak, nonatomic) IBOutlet UITextField *apellidoAlumnoField;
+@property (weak, nonatomic) IBOutlet UITableView *AlumnosTableView;
 
 @end
