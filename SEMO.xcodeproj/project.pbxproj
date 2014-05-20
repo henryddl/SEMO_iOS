@@ -123,6 +123,12 @@
 				D100530D192BCE8400B26517 /* ViewController.m */,
 				D100530F192BCE8400B26517 /* Images.xcassets */,
 				D10052FE192BCE8400B26517 /* Supporting Files */,
+				D100532E192BD52B00B26517 /* AlumnoViewController.h */,
+				D100532F192BD52B00B26517 /* AlumnoViewController.m */,
+				D1005331192BD54100B26517 /* UsuarioViewController.h */,
+				D1005332192BD54100B26517 /* UsuarioViewController.m */,
+				D1005334192BD55100B26517 /* DocenteViewController.h */,
+				D1005335192BD55100B26517 /* DocenteViewController.m */,
 			);
 			path = SEMO;
 			sourceTree = "<group>";
@@ -253,9 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1005330192BD52B00B26517 /* AlumnoViewController.m in Sources */,
 				D100530E192BCE8400B26517 /* ViewController.m in Sources */,
+				D1005333192BD54100B26517 /* UsuarioViewController.m in Sources */,
 				D1005308192BCE8400B26517 /* AppDelegate.m in Sources */,
 				D1005304192BCE8400B26517 /* main.m in Sources */,
+				D1005336192BD55100B26517 /* DocenteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +473,7 @@
 				D1005328192BCE8400B26517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1005329192BCE8400B26517 /* Build configuration list for PBXNativeTarget "SEMOTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +482,7 @@
 				D100532B192BCE8400B26517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
