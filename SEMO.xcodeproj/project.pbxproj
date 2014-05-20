@@ -25,6 +25,7 @@
 		D1005333192BD54100B26517 /* UsuarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005332192BD54100B26517 /* UsuarioViewController.m */; };
 		D1005336192BD55100B26517 /* DocenteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005335192BD55100B26517 /* DocenteViewController.m */; };
 		D1990D53192C057F0090D44C /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = D1990D52192C057F0090D44C /* Alumno.m */; };
+		D1990D55192C0DF80090D44C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1990D54192C0DF80090D44C /* libsqlite3.0.dylib */; };
 		D1DAC230192BEC0E003CA46F /* TipoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC22F192BEC0E003CA46F /* TipoViewController.m */; };
 		D1DAC233192BEC3B003CA46F /* PreguntaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC232192BEC3B003CA46F /* PreguntaViewController.m */; };
 		D1DAC236192BEC5E003CA46F /* ItemRespuestaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DAC235192BEC5E003CA46F /* ItemRespuestaViewController.m */; };
@@ -78,6 +79,7 @@
 		D1005335192BD55100B26517 /* DocenteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocenteViewController.m; sourceTree = "<group>"; };
 		D1990D51192C057F0090D44C /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
 		D1990D52192C057F0090D44C /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
+		D1990D54192C0DF80090D44C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D1DAC22E192BEC0E003CA46F /* TipoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoViewController.h; sourceTree = "<group>"; };
 		D1DAC22F192BEC0E003CA46F /* TipoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoViewController.m; sourceTree = "<group>"; };
 		D1DAC231192BEC3B003CA46F /* PreguntaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreguntaViewController.h; path = ../PreguntaViewController.h; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1990D55192C0DF80090D44C /* libsqlite3.0.dylib in Frameworks */,
 				D10052FA192BCE8400B26517 /* CoreGraphics.framework in Frameworks */,
 				D10052FC192BCE8400B26517 /* UIKit.framework in Frameworks */,
 				D10052F8192BCE8400B26517 /* Foundation.framework in Frameworks */,
@@ -152,6 +155,7 @@
 		D10052F6192BCE8400B26517 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1990D54192C0DF80090D44C /* libsqlite3.0.dylib */,
 				D10052F7192BCE8400B26517 /* Foundation.framework */,
 				D10052F9192BCE8400B26517 /* CoreGraphics.framework */,
 				D10052FB192BCE8400B26517 /* UIKit.framework */,

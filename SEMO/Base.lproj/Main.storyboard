@@ -261,9 +261,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="9r5-eP-rKi" appends="YES" id="jVB-ro-Hik"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcd-wx-jdF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="9r5-eP-rKi">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="RFk-Cp-kwy"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="615" y="-24"/>
         </scene>
@@ -338,9 +347,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="AFW-Bw-B4H" appends="YES" id="pJl-ss-wC6"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRR-9L-GT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="AFW-Bw-B4H">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="baM-tF-sty"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="599" y="672"/>
         </scene>
@@ -439,9 +457,18 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jXH-RA-Ho1" appends="YES" id="cCY-oJ-QF6"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccf-eV-z9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="jXH-RA-Ho1">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="Ktr-gV-izp"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="987" y="660"/>
         </scene>
@@ -541,9 +568,18 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Rbu-5T-Wbf" appends="YES" id="d36-Yb-SF9"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN6-hl-QDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Rbu-5T-Wbf">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="RMF-5n-Tuh"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1373" y="650"/>
         </scene>
@@ -559,9 +595,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="smD-kt-loA" appends="YES" id="x8q-2r-9bN"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxb-kz-lYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="smD-kt-loA">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="X3I-ya-Usl"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1783" y="650"/>
         </scene>
@@ -666,9 +711,18 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="vqI-tn-Ao6" appends="YES" id="lmI-aA-jsz"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHE-RL-TJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="vqI-tn-Ao6">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="Pzl-5c-5qy"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="983" y="-42"/>
         </scene>
@@ -737,9 +791,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Kd3-co-dxQ" appends="YES" id="8Ua-vc-kxY"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBl-kL-nfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Kd3-co-dxQ">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="3dG-V7-bgm"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1365" y="-24"/>
         </scene>
@@ -826,9 +889,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="So5-1p-O9x" appends="YES" id="aAK-DM-mXA"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tv9-oB-QwD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="So5-1p-O9x">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="XhD-k1-QaD"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1777" y="-52"/>
         </scene>
@@ -903,9 +975,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="tNr-uw-EO4" appends="YES" id="UCV-3J-Kry"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMp-Mm-5q1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="tNr-uw-EO4">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="OOD-SP-AIV"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2195" y="-42"/>
         </scene>
@@ -980,9 +1061,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nVK-9M-KoU" appends="YES" id="Ew3-Vi-zVy"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJm-Ep-6mc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="nVK-9M-KoU">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="d1j-E4-IDT"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1208" y="-787"/>
         </scene>
@@ -1063,9 +1153,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="naw-sR-HjS" appends="YES" id="56K-ep-me3"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jNO-c3-p7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="naw-sR-HjS">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="c30-cH-SDf"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1595" y="-782"/>
         </scene>
@@ -1164,9 +1263,18 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ioR-a1-tYo" appends="YES" id="t4l-xv-S1g"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ee-di-Oiq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ioR-a1-tYo">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="5y9-y1-m9N"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2031" y="-764"/>
         </scene>
@@ -1254,6 +1362,10 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dZT-Hc-pQ6" appends="YES" id="5Ez-x4-CaJ"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="AlumnosTableView" destination="wvt-rN-eDV" id="882-hh-5LN"/>
@@ -1264,6 +1376,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bl1-xY-7Gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dZT-Hc-pQ6">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="rEp-w1-N4a"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-237" y="-782"/>
         </scene>
@@ -1338,9 +1455,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="DpQ-He-aIp" appends="YES" id="oGq-d6-P7F"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Rn-uf-CVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="DpQ-He-aIp">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="qhd-rL-d3U"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="116" y="-782"/>
         </scene>
@@ -1427,9 +1553,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fXx-Y2-ZVn" appends="YES" id="jAz-tB-xDv"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gh4-fO-d1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="fXx-Y2-ZVn">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="Cef-Zk-n86"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="458" y="-782"/>
         </scene>
@@ -1516,9 +1651,18 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ejS-by-gws" appends="YES" id="uYN-ej-zmq"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8da-UF-fEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ejS-by-gws">
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" id="Aar-9i-toJ"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="840" y="-782"/>
         </scene>
@@ -1528,4 +1672,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="c30-cH-SDf"/>
+    </inferredMetricsTieBreakers>
 </document>
