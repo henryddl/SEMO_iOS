@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "sqlite3.h"
+#import "Alumno.h"
 
 @interface AlumnoViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *carnetField;
