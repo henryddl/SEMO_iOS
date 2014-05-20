@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)insertarAlumnoButton:(id)sender {
+}
+
+- (IBAction)ActualizarAlumnoButton:(id)sender {
+}
+
+- (IBAction)consultarAlumnoButton:(id)sender {
+}
+
+- (IBAction)borrarAlumnoButton:(id)sender {
+}
 @end

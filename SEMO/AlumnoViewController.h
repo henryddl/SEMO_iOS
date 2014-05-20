@@ -13,5 +13,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *nombreAlumnoField;
 @property (weak, nonatomic) IBOutlet UITextField *apellidoAlumnoField;
 @property (weak, nonatomic) IBOutlet UITableView *AlumnosTableView;
+- (IBAction)insertarAlumnoButton:(id)sender;
+- (IBAction)ActualizarAlumnoButton:(id)sender;
+- (IBAction)consultarAlumnoButton:(id)sender;
+- (IBAction)borrarAlumnoButton:(id)sender;
+
+
 
 @end
