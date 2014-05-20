@@ -164,7 +164,7 @@
 
 -(void)deleteData:(NSString *)deleteQuery{
     char *error;
-    if (sqlite_open([dbPathString UTF8String], &alumnoDB)==SQLITE_OK){
+    if (sqlite3_open([dbPathString UTF8String], &alumnoDB)==SQLITE_OK){
         if (sqlite3_exec(alumnoDB, [deleteQuery UTF8String], NULL, NULL, &error)==SQLITE_OK){
             NSLog(@"Alumno Eliminado");
         }
