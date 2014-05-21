@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>28A8F812-F77F-45C3-A5D9-20FF39229985</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SEMO</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B4AD112-B454-469B-AB4D-7F2E7FBE20CB</key>
+		<string>https://github.com/henryddl/SEMO_iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SEMO.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B4AD112-B454-469B-AB4D-7F2E7FBE20CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henryddl/SEMO_iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B4AD112-B454-469B-AB4D-7F2E7FBE20CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B4AD112-B454-469B-AB4D-7F2E7FBE20CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SEMO_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
